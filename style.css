@@ -110,7 +110,10 @@ h3 {
   display: flex;
   margin-top: 40px;
   justify-content: center;
+  color: black;
 }
+
+
 
 .contact-link {
   background: var(--primary-color);
@@ -297,7 +300,8 @@ ul {
   font-weight: 500;
 }
 
-#Nav {
+li {
   background-color: 9eb0d8;
 }
+
 
