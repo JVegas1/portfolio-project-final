@@ -1,0 +1,45 @@
+INDEX
+
+   <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="images/yoga.png" class="img-fluid" alt="yoga" />
+        </div>
+        <div class="col">
+          <div>
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h3 class="accordion-header">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                   
+            <p class="fs-1 p-3 mb-2 bg-transparent text-dark">Product Owner/ Strategist</p>
+                  </h3>
+          </button>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+            <p>
+              I specialize in crafting and executing product roadmaps that align seamlessly with both business objectives and user needs. 
+              Thriving in dynamic environments, I bring strong analytical and problem-solving skills to drive high-quality solutions. 
+              With a deep understanding of market dynamics and user behavior, I consistently make informed decisions that surpass customer expectations. 
+              Committed to staying at the forefront of industry advancements, I balance strategic vision with hands-on execution, contributing significantly 
+              to organizational growth and success. Poised to drive innovation and lead product teams to new heights.
+            </p>
+            
+            </div>
+        </div>
+      </div>
+            <div class="navigation-links">
+              <a href="" class="contact-link">Launch Yoga App</a>
+            </div>
+          </div>
+        </div>
+
+
+        
+
+        I specialize in crafting and executing product roadmaps that align seamlessly with both business objectives and user needs. 
+        Thriving in dynamic environments, I bring strong analytical and problem-solving skills to drive high-quality solutions. 
+        With a deep understanding of market dynamics and user behavior, I consistently make informed decisions that surpass customer expectations. 
+        Committed to staying at the forefront of industry advancements, I balance strategic vision with hands-on execution, contributing significantly 
+        to organizational growth and success. Poised to drive innovation and lead product teams to new heights.
+      
