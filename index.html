@@ -1,274 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="Front End Developer Project"
-      description="Teachings of coding, JS, CSS, HTML, Git, Netlify and Bootstrap in practice"
-    />
-    <title>Jasline V.</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="sidenav" id="mySidenav">
+    <a href="#home"><i class="fas fa-home"></i> Home</a>
+    <a href="./about.html"><i class="fas fa-user"></i> About</a>
+    <a href="./src/images/JV_Resume 2024.pdf" download><i class="fas fa-briefcase"></i> Résumé</a>
+    <a href="mailto:jaslinevegas@yahoo.com"><i class="fas fa-envelope"></i> Contact</a>
+  </div>
+
+  <div class="hamburger" onclick="toggleNav()">
+    <i class="fas fa-bars"></i>
+  </div>
 
 
 
-    <nav class="navbar fixed-top navbar-light "  id="Nav">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Jae V.</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="/index.html" ><strong>Home</strong></a>
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                id="nav-link"
-                href="about.html"
-                title="About Me"
-                ><strong>About Me</strong></a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                href="./src/images/2023 JVegas.pdf"
-                title="Résumé"
-                ><strong>Résumé</strong></a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="mailto:jaslinevegas@yahoo.com"><strong>Contact Me</strong></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <!-- Your HTML content here -->
     
-
-    
-    <div class="hero">
-      <article class="hero-info">
-      <h2>Jae Vegas</h2>
-      <h3 style="color: black;">Product Owner | Data Science | Cybersecurity | UI/ UXR Design & Development</h3>
-
-
-      </article>
-      <div class="navigation-links">
-        <a href="about.html#contact" class="contact-link">Contact me</a>
-        <a
-          href="about.html"
-          class="about-link"
-          title="About Me"
-          >About me</a
-        >
-      </div>
-    </div>
-
-
-
-    <section>
+    <section class="hero" >
       <article>
-      <article class="first-section">
-      <div class="container">
-        <div class="row">
-          <div class="col" id="img-col">
-            <img src="./src/images/PS-Roadmap.png" class="img-fluid" alt="Product Strategy" />
-          </div>
-          <div class="col">
-            <div class="accordion" id="accordionExample">
-              <div class="accordion-item">
-                <h3 class="accordion-header">
-                <button class="accordion-button collapsed" id="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-              <p class="p-2 mb-2" id="PS">Product Manager</p>
-                    </h3>
-            </button>
-            <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-              <div class="accordion-body">
-                <p>
-                  I specialize in crafting and executing product roadmaps that align seamlessly with both business objectives and user needs. 
-                  Thriving in dynamic environments, I bring strong analytical and problem-solving skills to drive high-quality solutions. 
-                  With a deep understanding of market dynamics and user behavior, I consistently make informed decisions that surpass customer expectations. 
-                  Committed to staying at the forefront of industry advancements, I balance strategic vision with hands-on execution, contributing significantly 
-                  to organizational growth and success. Poised to drive innovation and lead product teams to new heights.
-                </p>
-                <br />
-                <div class="badge">
-                  <span class="PS-badge">SAFe Agile Certified PM</span>
-                  <span class="PS-badge">Product Lifecycle Management</span>
-                  <span class="PS-badge">Data Analytics</span> 
-                  </div>
-              </div>           
-          </div>
-        </div>
-              </div>
-            </div>
-          </div>
-        </div>
-     </article>
-      </section>
-        
-
-      
-        <article>
-        <article class="second-section">
-        <div class="container">
-          <div class="row">
-            <div class="col" id="img-col">
-              <img src="./src/images/Data Science.jpg" class="img-fluid" alt="Data Science"/>
-            </div>
-            <div class="col">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" id="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                <p class="p-2 mb-2" id="PS">Data Science</p>
-                      </h3>
-              </button>
-              <div id="flush-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <p>
-                    I excel in harnessing the power of data analytics and visualization to derive actionable
-                     insights. Proficient in SQL and adept at cleaning and preparing complex datasets, 
-                     I have a proven track record of transforming raw data into meaningful information.
-                      My strength lies in presenting and communicating findings effectively, enabling 
-                      stakeholders to make informed decisions based on data-driven insights. With a keen 
-                      eye for detail and a knack for interpreting data trends, I am dedicated to driving
-                       organizational success through the strategic utilization of data science methodologies.
-                  </p>
-                  <br />
-                  <div class="badge">
-                    <span class="PS-badge">Data Analytics</span>
-                    <span class="PS-badge">SQL/ NoSQL/ MySQL</span>
-                    <span class="PS-badge">R</span>
-                    <span class="PS-badge">Azure</span>
-                    <span class="PS-badge">Tableau</span>
-                    <span class="PS-badge">Open Office </span>
-                    <span class="PS-badge">Excel</span>
-                    </div>
-                </div>           
-            </div>
-          </div>
-                </div>
-              </div>
-            </div>
-          </div>
-       </article>
-   
-
-      <article class="third-section">
-        <div class="container">
-          <div class="row">
-            <div class="col" id="img-col">
-              <img src="./src/images/Cybersec.jpg" class="img-fluid" alt="lock with blue background" />
-            </div>
-            <div class="col">
-              <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                  <h3 class="accordion-header">
-                  <button class="accordion-button collapsed" id="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                    <p class="p-3 mb-2" id="PS">Cybersecurity</p>
-                      </h3>
-
-              </button>
-              <div id="flush-collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-                <div class="accordion-body">
-                  <p class="accordion-text fluid" >
-                    With a passion for network security, hacking, and a focus on digital forensics. 
-                    Specialize in Python and Linux, leveraging programming skills to enhance cybersecurity practices. Committed to continuous 
-                    learning and skill development, aiming for a seamless transition into ethical hacking. Demonstrates bility to analyze and 
-                    fortify digital infrastructures, contributing to robust cybersecurity frameworks. While working towards excelling in digital forensics, 
-                    with a long-term aspiration to advance into ethical hacking. Adept at creating Python programs for hands-on practice, cultivating a
-                     dynamic skill set poised for the evolving challenges of cybersecurity. 
-                
-              <br />
-              <div class="badge">
-                <span class="PS-badge">Python</span> 
-                <span class="PS-badge">Linux / Kali</span>
-                <span class="PS-badge">IDS</span>
-                <span class="PS-badge"> SIEM Tools</span> 
-                </div>
-              </div>
-            </div>         
-        </div>
+      <div class="typewriter">
+        <h1> Jasline Vegas</h1>
       </div>
-    </div>
-  </div>
-</div>
-</div>
-</article>
-
-
-
-<section>
-  <article class="fourth-section">
-    <div class="container">
-      <div class="row">
-        <div class="col" id="img-col">
-          <img src="./src/images/UI&UX.png" class="img-fluid" id="ing-fluid-ui" alt="UI/UXR" />
+        <div>
+           <h2><span id="job-title"></span></h2>
         </div>
-        <div class="col">
-          <div class="accordion" id="accordionExample">
-            <div class="accordion-item">
-              <h3 class="accordion-header">
-              <button class="accordion-button collapsed" id="accordion-button"  type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                <p class="p-3 mb-2" id="PS">UI/ UX Research & Design</p>
-                  </h3>
+        </article>
+      </section>
 
-          </button>
-          <div id="flush-collapseThree" class="accordion-collapse collapse show" data-bs-parent="#accordionFlushExample">
-            <div class="accordion-body">
-              <p class="accordion-text">
-                As a UI/UX Research & Design developer, I seamlessly blend creativity and technical prowess to craft immersive digital experiences. 
-                My expertise lies in meticulously researching user behaviors and preferences, translating insights into visually compelling designs, and
-                 implementing them through seamless development. Proficient in a diverse array of tools and technologies, I am dedicated to creating user-centric interfaces
-                  that elevate both functionality and aesthetics. Passionate about the iterative process, I thrive on refining designs through continuous user feedback, 
-                  ensuring the final product not only meets but exceeds user expectations, fostering a harmonious synergy between innovation and usability.
-              </p>
-          <br />
-          <div class="badge">
-            <span class="PS-badge">User Research</span>
-            <span class="PS-badge">Prototyping Tools</span>
-            <span class="PS-badge">Design Principles</span>
-            <span class="PS-badge">Accessibility </span> 
-            </div>
-        </div>           
+           <!-- Section 1: PM -->
+  <section class="section pm">
+    <div class="content">
+      <h2>Agile Product & Project Management</h2>
+      <div class="pm_blurb"> 
+        In app and web development, I blend creativity and functionality, crafting user-centric 
+        interfaces. With expertise in notion, Jira, and Agile management, I lead planning, iteration, 
+        and roadmap refinement. Through user experience research, I shape wireframes to breathe life into 
+        concepts. Navigating sprints and backlog refinement, I ensure alignment with user needs, driving 
+        innovation in digital landscapes.
+      </div>
+      <img src="./src/images/Roadmap (2).png" class="img-fluid" alt="Images of product cycle roadmap">
     </div>
-  </div>
-</div>
-</div>
-</div>
-</div>
-</article>
-</section>
-    
+  </section>
   
 
+      <!-- Section 2: ui/ux -->
+  <section class="section ux">
+    <div class="content">
+      <h2>UI/ UX Design, Development & Research</h2>
+      <div class="ux_blurb">
+        Specializing in UI/UX design, I excel in crafting intuitive interfaces using Figma, Miro, Wix, WordPress, and Adobe. 
+        My expertise extends to UX research, where I analyze user insights to inform design decisions. With a focus on usability and 
+        aesthetics, I create seamless digital experiences that captivate audiences and drive engagement.
+      </div>
+      <img src="./src/images/Figjam.png" class="img-fluid" alt="Images of website design through Figma">
+    </div>
+  </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  
+  <!-- Section 3: Data Analytics -->
+  <section class="section data">
+    <div class="content">
+      <h2>Data Analytics</h2>
+      <div class="blurb">
+        Experienced in data analytics, I harness Python, SQL, and Excel to extract insights and craft 
+        compelling visuals. Proficient in AI/ML learning, I develop predictive models to drive informed 
+        decisions. With expertise in data visualization, I communicate trends effectively, empowering 
+        organizations to thrive in a data-driven world.
+      </div>
+      <img src="./src/images/Data.jpg" class="img-fluid" alt="images of graphs and charts on a screen">
+    </div>
+    <hr style="border: 2px white;">
+  </section>
+  
+
+   <!-- Section 4: SWE -->
+   <section class="section frontend">
+    <div class="contentswe">
+      <h2 class="swe">Software Engineering- Front End</h2>
+      <div class="blurb">
+        Experienced in front-end development, I proficiently wield VS Code and GitHub for seamless collaboration. 
+        With expertise in Vanilla JavaScript and React.js, I craft dynamic and responsive user interfaces. 
+        Harnessing Node.js, I integrate APIs seamlessly for enhanced functionality. Fluent in HTML and CSS, I 
+        sculpt polished web experiences. Additionally, my proficiency extends to WordPress, where I design and 
+        customize engaging websites.
+      </div>
+      <img src="./src/images/WebDev.jpg" class="img-fluid" alt="images of graphs and charts on a screen">
+    </div>
+  </section>
+
+  
+    <script src="script.js"></script>
+</body>
 </html>
