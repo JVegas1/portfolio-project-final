@@ -1,3 +1,4 @@
+
 body {   
   background-color: #eae2f5a1;
 }
@@ -8,11 +9,11 @@ body.about {
 }
 
 .hero {
-  background: url("./src/images/laptop.png");
-  height: 120vh;
+  background: url("./src/images/laptop2.png");
+  height: 100vh;
   background-size: contain;
   background-position: center;
-  padding-bottom: 80px;
+  padding-bottom: 100px;
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
@@ -21,8 +22,7 @@ body.about {
 }
 
 section.pm {
-  padding-top: -200px;
-  padding-bottom: 40px;
+  padding-bottom: 110px;
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
@@ -33,10 +33,9 @@ section.hero {
 }
 
 article {
-  padding-top: 190px;
+  padding-top: 250px;
   margin-left: 30%;
   margin-right: 30%;
-  position: absolute;
 }
 
 /* Typing Animation */
@@ -50,7 +49,7 @@ article {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 768px) {
   .content {
     text-align: center;
     font-size: 16px; /* Adjust font size for smaller screens */
@@ -61,29 +60,23 @@ article {
     max-width: 100%;
     height: 200px;
     border-radius: 10px;
-    
-    }
+  }
 
   .img-fluids {
     max-width: 100%;
     height: 120px;
     border-radius: 10px;
   }
-
   .abouthero {
     padding-left: 80px;
     margin-left: 40px;
     text-align: center;
     columns: 1;
   }
+ 
 
-  .aboutcard {
-    margin-top: -150px;
-  }
-
-  
-  
 }
+
 
 @media screen and (min-width: 768px) {
   .content {
@@ -92,37 +85,12 @@ article {
     width: fit-content;
   }
 
-  .img-fluid {
+  .img-fluid, .img-fluids {
     height: 400px;
     border-radius: 10px;
-    margin-top: -80px;
   }
 
-  .img-fluids {
-    height: 300px;
-    border-radius: 10px;
-    margin-top: 6px;
-  }
-
-  .h2adjust {
-    margin-bottom: 20px;
-    margin-top: -200px;
-  }
-
-  
-  .card-body-A{
-    margin-top: 170px;
-    position: relative;
-    }
-    
-    .aboutcard {
-    margin-top: 140px;
-    padding-bottom: 25px;
-    background-color: transparent;
-    position: sticky;
-    }
-
-  
+ 
 
 }
 
@@ -132,6 +100,8 @@ article {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  padding-bottom: 20px;
   margin-bottom: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Adjust shadow properties as needed */
   border-bottom: 1px solid #ddd; /* Adjust color and thickness as needed */
@@ -140,21 +110,21 @@ article {
 
 .pm {
   color: #172330;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   background-color: #f6f6f6;
 }
 
 .ux {
   background-color: #f6f6f6;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
 .frontend {
   background-color: #f6f6f6;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   color: #172330;
 }
-
+  
 section.data {
   color: #172330;
   background-color: #f6f6f6;
@@ -162,6 +132,8 @@ section.data {
 }
 
 .blurb {
+  text-align: justify;
+  margin-top: -20px;
   margin-bottom: 30px;
   padding-left: 20%;
   padding-right: 20%;
@@ -169,6 +141,8 @@ section.data {
 }
 
 .pm_blurb {
+  text-align: justify;
+  margin-top: -20px;
   margin-bottom: 30px;
   padding-left: 20%;
   padding-right: 20%;
@@ -177,37 +151,46 @@ section.data {
 }
 
 .ux_blurb {
+  text-align: justify;
+  margin-top: -20px;
   margin-bottom: 30px;
   padding-left: 20%;
   padding-right: 20%;
   font-size: 1.2rem;
 }
 
-.card-body-A{
-margin-top: 150px;
-position: relative;
+/* About Page Styles*/
+.abouthero {
+  padding-bottom: 20px;
+  padding-right: 35rem;
+  margin-top: -35px;
 }
 
-.aboutcard {
-margin-top: 90px;
-margin-left: 20%;
-padding-bottom: 35px;
-background-color: transparent;
-position: relative;
+#sticker {
+  margin-top: -160%;
+  height: 500px;
+  border-color: #172330;
+  margin-left: 32rem;
+  padding: 0px 10px;
+  margin-bottom: -5%;
 }
 
-.card-title {
-  font-size: 3.5vw;
-  margin-top: -4.5%;
-  margin-right: -150px;
-  position: relative;
+.aboutblurb {
+  text-align: justify;
+  margin-bottom: 40px;
+  margin-left: -40px;
+}
+
+.abouth1 {
+  font-size: 4.2vw;
+  margin-top: -3%;
+  margin-left: 10px;
 }
 
 .abouth2 {
-  font-size: 2.5vw;
-  margin-top: -25.8%;
-  margin-left: 5px;
-  position: relative;
+  font-size: 3vw;
+  margin-top: -30%;
+  margin-left: -40px;
 }
 
 .card-body {
@@ -215,13 +198,12 @@ position: relative;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-.card-titles {
+.card-title {
   text-align: center;
 }
 
 .cards {
   padding-left: 10px;
-  margin-bottom: 0px; /* Adjust margin-top as needed */
 }
 
 /* Content styles */
@@ -231,7 +213,7 @@ position: relative;
 
 .contentswe {
   text-align: center;
-  padding-top: 0;
+  padding-top: 6rem;
 }
 
 .swe {
@@ -239,9 +221,9 @@ position: relative;
 }
 
 .content h2 {
-  font-size: 2.65em;
-  margin-bottom: 20px;
-  margin-top: -50px;
+  font-size: 2.8em;
+  margin-top: 95px;
+  margin-bottom: 50px;
 }
 
 .content p {
@@ -256,13 +238,8 @@ position: relative;
 }
 
 h1 {
-  font-size: 38pt;
+  font-size: 44pt;
   margin-top: -60rem;
-  padding-bottom: 3px;
-}
-
-h2 {
-  font-size: 24pt;
 }
 
 .hero {
@@ -272,53 +249,32 @@ h2 {
   padding-top: 100px;
 }
 
-.typewriter, .job-title {
-  text-align: center; /* Center both h1 and h2 */
-}
-
-.typewriter {
-  overflow: hidden;
-  padding-top: 100px; /* Adjust as needed */
-}
-
 .typewriter h1 {
-  display: inline-block; /* Ensures h1 doesn't move */
-  margin: 0; /* Reset margin */
+  overflow: hidden; /* Ensures the text is hidden until animated */
+  white-space: nowrap; /* Prevents text from wrapping */
+  margin: 0 auto; /* Centers the text horizontally */
+  padding-top: -85rem;
 }
 
-.job-title {
-  overflow: hidden;
-}
-
-.job-title h2 {
-  display: inline-block; /* Allows h2 to type out */
-  animation: typing 5s steps(40) forwards; /* Adjust timing and steps as needed */
-  white-space: pre-wrap; /* Allow text to wrap */
-}
-
+/* Animation for the typing effect */
 @keyframes typing {
-  from { width: 0; }
+  from { width: 0 }
+  to { width: 100% }
 }
 
-.job-title h2::after {
-  content: "";
-  display: inline-block;
-  width: 0;
+.typewriter #job-title::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-right: 2px solid black; /* Simulates the cursor */
+  animation: blink-caret 1s steps(1) infinite;
 }
 
-/* Adjust other styles as needed */
-
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  .typewriter {
-    padding-top: 50px; /* Adjust padding for smaller screens */
-  }
-
-  .job-title h2 {
-    font-size: 1.5em; /* Adjust font size for smaller screens */
-  }
+/* Animation for the blinking cursor */
+@keyframes blink-caret {
+  from, to { border-color: transparent; }
+  50% { border-color: black; }
 }
-
 
 /* Side Navbar styles */
 .sidenav {
@@ -360,24 +316,17 @@ h2 {
   background-color: #f6f6f6;
 }
 
-#contact{
-  text-align: center;
-  padding: 12px;
+/* Main Content styles */
+.main-content {
+  transition: margin-left .5s;
+  padding: 16px;
+  margin-left: 0; /* Adjust margin to match side navbar width */
 }
 
-.contact {
-  font-size: 18pt;
-  color: #172330;
-  text-decoration: none;
-}
 
-a:after {
-  color: #172330;
-}
 
-@media (max-width: 780px) {
-  img, .img-fluid, .img-fluids {
+@media (max-width: 0px) {
+  img {
     display: none;
-    visibility: hidden;
   }
 }
