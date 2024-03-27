@@ -83,6 +83,7 @@ article {
 
   .aboutblurb {
     margin-top: -150px;
+    text-align: justify;
   }
 
   h4 {
@@ -131,6 +132,10 @@ article {
 
     h4 {
       display: none;
+    }
+
+    .aboutblurb {
+      text-align: justify;
     }
 
 
